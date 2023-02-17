@@ -26,9 +26,5 @@ public class Test {
 
         new Thread(() -> System.out.println(Thread.currentThread().getName()+"run")).start();
 
-        System.out.println("hello hot-project");
-        System.out.println("hello master-project");
-        System.out.println("hello hot-project1");
-
     }
 }
