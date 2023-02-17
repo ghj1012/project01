@@ -26,5 +26,7 @@ public class Test {
 
         new Thread(() -> System.out.println(Thread.currentThread().getName()+"run")).start();
 
+        System.out.println("gitee");
+
     }
 }
