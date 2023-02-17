@@ -25,5 +25,8 @@ public class Test {
 //        }).start();
 
         new Thread(() -> System.out.println(Thread.currentThread().getName()+"run")).start();
+
+        System.out.println("hello hot-project");
+
     }
 }
