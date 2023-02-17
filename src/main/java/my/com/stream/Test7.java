@@ -9,9 +9,9 @@ import java.util.stream.Stream;
 public class Test7 {
     public static void main(String[] args) {
         /*
-           计算所有学生年龄的和
+           计算所有学生年龄的和 求和
          */
-        ArrayList<StudentyEntity> se = new ArrayList();
+        ArrayList<StudentyEntity> se = new ArrayList<>();
         se.add(new StudentyEntity("小明",20));
         se.add(new StudentyEntity("小红",19));
         se.add(new StudentyEntity("pob",21));
